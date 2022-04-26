@@ -1,0 +1,74 @@
+.footer-contacts {
+    display: flex;
+    height: 840px;
+}
+
+.contacts-form {
+    h2 {
+        padding-bottom: 90px;
+    }
+    form {
+        padding-left: 62px;
+    }   
+}
+
+input, textarea {
+    margin-bottom: 30px;
+}
+
+.text-name {
+    width: 505px;
+    height: 65px;
+    border: 1px solid #DDDDDD; 
+}
+
+.email {
+    width: 505px;
+    height: 65px;
+    border: 1px solid #DDDDDD;   
+}
+
+.textarea {
+    width: 505px;
+    height: 246px;
+    border: 1px solid #DDDDDD;   
+}
+
+input.button {
+    width: 235px;
+    height: 65px;
+    background: #F6D5A7;
+}
+
+.contacts-info {
+    display: grid;
+    justify-content: center;
+    padding-top: 225px;
+    padding-left: 100px;
+    grid-template-columns: repeat(2, 270px);
+    grid-auto-rows: 80px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.card {
+    height: 60px;
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: 0.06em;
+
+    p {
+        font-size: 14px;
+        line-height: 1.7;
+        color: #907965;
+    }
+}
+
+.card:before {
+    position:absolute;
+    content: "";
+    margin-left: -40px;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../img/contacts/phone.svg");
+}
